@@ -113,7 +113,27 @@ h2 {
     margin-bottom: 20px;
     font-weight: bold;
 }
-
+.musica {
+    text-align: center;
+    margin: 20px;
+}
+.titulo_p {
+    text-align: center;
+    margin: 20px;
+}
+.texto-começo {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+.texto-meio {
+    padding: 10px;
+}
+.musica-titulo {
+    text-align: center;
+    margin: 30px;
+}
 .imgsbenefecios {
     width: 100%;
     max-width:200px;
