@@ -113,7 +113,34 @@ h2 {
     margin-bottom: 20px;
     font-weight: bold;
 }
-
+.titulo_beneficios {
+    color: #1db954;
+    text-align: center;
+    margin: 10px;
+}
+.texto-beneficios{
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-right: 350px;
+    margin-bottom: 40px;
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+}
+.complexo{
+    margin: 0px;
+    padding: 500px;
+    height: 500px;
+    
+    
+}
+.complexo-titulo {
+    text-align: center;
+    margin: 20px;
+}
+.complexo-texto {
+    margin: 60px;
+}
 .imgsbenefecios {
     width: 100%;
     max-width:200px;
