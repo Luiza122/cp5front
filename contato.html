@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Melodia</title>
+    <link rel="stylesheet" href="css/contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="index.html">
+            <div style="display: flex; justify-content: center;">
+                <div style="width: 7%;">
+                    <img class="img_logo" src="images/logo.png" alt="Melodia" class="logo">
+                </div>
+                <div style="width: 93%;" class="titulo">
+                    <br><h1>Melodia: Sua Música, Sua Forma</h1>
+                </div>
+            </div>         </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="beneficios.html">Benefícios</a></li>
+                <li><a class="nav-link" href="musica.html">Músicas</a></li>
+                <li><a class="nav-link" href="depoimentos.html">Depoimentos</a></li>
+                <li><a class="nav-link" href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2>Entre em Contato</h2>
+        <form id="contact-form" onsubmit="return handleSubmit(event)">
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Melody FLow. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault(); // Evita o envio do formulário
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            console.log('Nome:', name);
+            console.log('Email:', email);
+            console.log('Mensagem:', message);
+            alert('Mensagem enviada!'); // Exibe um alerta de confirmação
+        }
+    </script>
+</body>
+</html>
