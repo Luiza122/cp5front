@@ -9,23 +9,19 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color:#c7f0c3; 
+    background-color: #c7f0c3;
 }
-.img_logo{
+
+.img_logo {
     width: 60px;
     height: 60px;
 }
-.logo {
-    height: 50px; 
-    width: auto;  
-    margin-right: 10px; 
-}
 
 .navbar {
-    background-color: #1db954; 
+    background-color: #1db954;
     padding: 20px;
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .navbar-brand {
@@ -51,148 +47,131 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
-.titulo{
-    text-align: center;
-    height: 30px;
-    
-}
-.banner {
-    background-color: #1db954;
-    color: #000;
-    padding: 60px 20px;
-    text-align: center;
-}
 
-.banner h1 {
-    font-size: 2.5rem;
-    color: #000000;
-    margin-bottom: 20px;
-}
-
-.banner p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-.container {
+.depoimentos_corpo {
     padding: 80px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #c7f0c3;
 }
 
-h2 {
+.titulo-depoimentos {
     color: #1db954;
     margin-bottom: 30px;
     font-size: 2rem;
 }
 
-p {
+.depoimento_item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+    margin-left: 15px; 
+    flex-grow: 1; 
+}
+
+blockquote p {
     font-size: 1.1rem;
     line-height: 1.6;
     color: #000000;
 }
 
-.btn {
-    background-color: #1db954;
-    color: white;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
+blockquote footer {
+    text-align: right;
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
 }
 
-.btn:hover {
-    background-color: #128230;
-    transform: translateY(-3px); 
-}
-
-h2 {
-    color: #6ee96e;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.imgsbenefecios {
-    width: 100%;
-    max-width:200px;
-    height: auto;
-    margin: 0 auto;
-    display: block;
+.img_perfil {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #1db954; 
 }
 
 .footer {
-    background-color: #1db954; 
-    color: white; 
+    background-color: #1db954;
+    color: white;
+    padding: 2rem 0;
     text-align: center;
-    padding: 20px 0;
-    margin-top: auto;
 }
 
-.footer p {
-    margin: 0;
-    font-size: 0.9rem; 
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
 }
 
-.btn {
-    background-color: #1db954; 
-    color: #000000;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+.footer-container div {
+    flex: 1;
+    padding: 0 1rem;
+}
+
+.footer h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer p, .footer a {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.footer a {
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 0.5rem 0;
 }
 
 @media (max-width: 768px) {
-    .navbar {
+    .depoimentos_corpo {
+        padding: 40px;
+    }
+
+    .titulo-depoimentos {
+        font-size: 1.5rem;
+    }
+
+    .depoimento_item {
         flex-direction: column;
+        align-items: flex-start; 
     }
 
-    .navbar-links {
-        margin-top: 10px;
+    blockquote {
+        margin-left: 0; 
     }
 
-    .navbar-links ul {
-        flex-direction: column;
-    }
-
-    .navbar-links li {
-        margin: 5px 0; 
-    }
-
-    .banner {
-        padding: 60px 20px;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    h2 {
-        font-size: 1.5rem; 
-    }
-
-    .btn {
-        padding: 10px 15px;
+    .img_perfil {
+        margin-bottom: 10px; 
     }
 }
 
 @media (max-width: 480px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    h2 {
+    .titulo-depoimentos {
         font-size: 1.2rem;
     }
-}
 
-
-.depoimentos_corpo { 
-    padding: 80px;
-    text-align: center;
+    blockquote p {
+        font-size: 0.9rem; 
     }
-    
+}
