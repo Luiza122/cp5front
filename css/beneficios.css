@@ -119,13 +119,10 @@ h2 {
     margin: 10px;
 }
 .texto-beneficios{
-    margin-left: 250px;
-    margin-top: 20px;
-    margin-right: 350px;
-    margin-bottom: 40px;
-    width: 1000px;
-    height: 100px;
     text-align: center;
+    margin: 30px;
+
+   
 }
 .complexo{
     margin: 0px;
@@ -147,6 +144,26 @@ h2 {
     height: auto;
     margin: 0 auto;
     display: block;
+}
+.beneficios_corpo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+  
+ 
+  .beneficios_corpo > div {
+    flex: 0 0 50%; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    text-align: justify; 
+  }
+    
+
+.titulo_beneficios{
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .footer {
@@ -216,23 +233,3 @@ h2 {
     }
 }
 
-.beneficios_corpo {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; 
-  }
-  
- 
-  .beneficios_corpo > div {
-    flex: 0 0 50%; 
-    box-sizing: border-box; 
-    padding: 10px; 
-    text-align: justify; 
-  }
-    
-
-.titulo_beneficios{
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-align: center;
-}

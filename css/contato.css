@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #ffffff; 
+    background-color: #c7f0c3; 
 }
 .img_logo{
     width: 60px;
