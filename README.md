@@ -33,7 +33,11 @@ O projeto é organizado em várias páginas para facilitar a navegação e a apr
 ## Conclusão
 
 O projeto **Melodia** foi desenvolvido com foco na experiência do usuário, utilizando design moderno e recursos atraentes. Ele representa uma abordagem inovadora para a descoberta musical, com a intenção de engajar e encantar os amantes da música.
-
----
-
-Se você tiver interesse em mais informações ou quiser contribuir, sinta-se à vontade para entrar em contato!
+______________________________________________________________________________________________________________________________________________________________________________
+Componentes no grupo:
+Luiza Macena Dantas 
+RM556237
+Eduardo Fakiani 
+RM556093
+Fernanda Rocha Menon
+RM554673
