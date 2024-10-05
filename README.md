@@ -41,3 +41,9 @@ Eduardo Fakiani
 RM556093
 Fernanda Rocha Menon
 RM554673
+Luiza Macena Dantas 
+RM556237
+Eduardo Fakiani 
+RM556093
+Fernanda Rocha Menon
+RM554673
